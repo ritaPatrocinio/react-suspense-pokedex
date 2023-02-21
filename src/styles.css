@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid #cecece; */
+}
+
+body {
+  --background: #161b22;
+  --border-radius-m: 5px;
+  --shadow-m: 0 7px 34px 0 hsl(0, 0%, 91%), 0 3px 6px 0 hsl(0, 0%, 95%);
+  --text: dodgerblue;
+  background: var(--background);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  margin: 4%;
+  overflow-y: scroll;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0 0 5% 0;
+  color: deeppink;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  margin: 20% 1%;
+  background-color: white;
+  font-size: 18px;
+  color: dodgerblue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul li button {
+  max-height: 35px;
+  margin: 2px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 1% 0 0 0;
+  font-size: 4em;
+}
+
+.next {
+  color: midnightblue;
+  font-size: 20px;
+}
